@@ -61,6 +61,9 @@ pre {
     font-family: codefont, "Lucida Console", fixed, monospace;
     font-size: 14px;
 }
+pre.valid {
+    color: green;
+}
 pre.invalid {
     color: var(--ebnf-special-color);
 }
